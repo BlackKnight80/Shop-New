@@ -1,0 +1,15 @@
+<!doctype html><html lang="ru"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Магазин строительных материалов</title><script>// Проверка и исправление путей для GitHub Pages
+      (function () {
+        var path = window.location.pathname;
+        var hash = window.location.hash;
+        // Только для продакшена (GitHub Pages)
+        if (
+          window.location.hostname !== "localhost" &&
+          window.location.hostname !== "127.0.0.1"
+        ) {
+          // Если путь начинается с /Shop-New/ и есть хеш, перенаправляем
+          if (path.indexOf("/Shop-New/") === 0 && hash) {
+            window.location.href = "/Shop-New/" + hash.slice(1);
+          }
+        }
+      })();</script><script defer="defer" src="/Shop-New/bundle.js"></script></head><body><div id="root"></div></body></html>
