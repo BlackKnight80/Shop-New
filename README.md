@@ -4,7 +4,7 @@
 
 ## Демо
 
-[Живая демонстрация сайта](https://blackknight80.github.io/Shop/)
+[Живая демонстрация сайта](https://blackknight80.github.io/Shop-New/)
 
 ## Технологии
 
